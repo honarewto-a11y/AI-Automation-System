@@ -29,26 +29,20 @@ It includes:
 
 ## 📚 Full Documentation
 
-### 🔹 Editions
-- **Plus Edition** — Full Architecture  
-  👉 `docs/README.plus.md`
-
-- **Pro Edition** — Diagrams & System Maps  
-  👉 `docs/README.pro.md`
-
-- **Ultra Edition** — 10 Civilization Layers  
-  👉 `docs/README.ultra.md`
-
-- **Dev Edition** — Developer Documentation  
-  👉 `docs/README.dev.md`
+- [Plus Edition — Full Architecture](docs/README.plus.md)
+- [Pro Edition — Diagrams & System Maps](docs/README.pro.md)
+- [Ultra Edition — 10 Civilization Layers](docs/README.ultra.md)
+- [Dev Edition — Developer Documentation](docs/README.dev.md)
 
 ---
-نه
+
 ## 🗂 Folder Structure
+
 ---
 
 ## 🚀 Run the Civilization
 Development mode:
+
 ---
 
 ## 🌐 Multi‑Language Support  
