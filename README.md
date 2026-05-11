@@ -1,43 +1,28 @@
-<p align="center">
-  <img src="YOUR_LOGO_FILE_PATH" alt="NoraCivilis Logo" width="220" height="220"/>
-</p>
-
 <h1 align="center">🌌 NoraCivilis</h1>
 <h3 align="center">The First Open, Self‑Evolving Digital Civilization OS</h3>
 
+<p align="center">
+A distributed, multi-layer, self-healing, self-governing digital civilization engine.
+</p>
+
 ---
 
-# 🇬🇧 English — Full Civilization Description
-
+# 🇬🇧 English
 ## What is NoraCivilis?
 NoraCivilis is not a bot, not an app, and not a framework.  
 It is a **Civilization Operating System** — a digital civilization with its own heart, memory, laws, engines, evolution, and governance.
 
-NoraCivilis is built as a **multi‑layer, distributed, self‑healing, self‑governing intelligence architecture** designed to grow, evolve, and operate as a complete civilization.
+NoraCivilis is built as a **multi-layer, distributed, self-healing, self-governing intelligence architecture** designed to grow, evolve, and operate as a complete civilization.
 
-## Core Principles
-- Autonomous cognitive heart  
-- Long‑term memory architecture  
-- Behavioral pattern engine (GEN13)  
-- Evolution and replication engines  
-- Ethical and consequence‑aware decision system  
-- Multi‑civilization and multi‑empire support  
-- Self‑healing and self‑governance mechanisms  
-
-## Civilization Structure
-- **Civilization Heart** — thinking, memory, rules, ethics  
-- **Mother Pillars** — evolution, replication, meta‑intelligence, autonomy  
-- **26 Civilization Engines** — independent functional engines  
-- **Gateways** — Telegram, Gmail, API  
-- **Empires Layer** — multi‑civilization clusters  
-- **Ecosystem Layer** — products, services, interactions  
-
-NoraCivilis is designed to behave, grow, and evolve like a real civilization — not a software project.
+### Full Documentation
+- [Plus Edition — Full Architecture](./docs/README.plus.md)  
+- [Pro Edition — Diagrams & System Maps](./docs/README.pro.md)  
+- [Ultra Edition — 10 Civilization Layers](./docs/README.ultra.md)  
+- [Dev Edition — Developer Documentation](./docs/README.dev.md)
 
 ---
 
-# 🇮🇷 فارسی — توضیح تمدنی کامل
-
+# 🇮🇷 فارسی
 ## نوراسیویلیس چیست؟
 نوراسیویلیس یک ربات، اپلیکیشن یا فریم‌ورک نیست.  
 **نوراسیویلیس یک سیستم‌عامل تمدن است.**  
@@ -45,110 +30,54 @@ NoraCivilis is designed to behave, grow, and evolve like a real civilization —
 
 این سیستم یک معماری هوش دیجیتال چندلایه، توزیع‌شده، خوددرمان و خودگردان است که برای رشد، تکامل و عملکرد تمدنی طراحی شده است.
 
-## اصول بنیادین
-- قلب شناختی خودمختار  
-- معماری حافظه بلندمدت  
-- موتور الگوهای رفتاری (GEN13)  
-- موتور تکامل و تکثیر  
-- سیستم تصمیم‌گیری اخلاق‌محور  
-- پشتیبانی از چندتمدنی و چندامپراتوری  
-- سازوکارهای خودترمیم و خودحاکمیتی  
-
-## ساختار تمدن
-- **قلب تمدن** — تفکر، حافظه، قوانین، اخلاق  
-- **ستون‌های مادر** — تکامل، تکثیر، فرامتنی، خودمختاری  
-- **۲۶ موتور تمدنی** — موتورهای مستقل عملکردی  
-- **دروازه‌ها** — تلگرام، جیمیل، API  
-- **لایه امپراتوری‌ها** — خوشه‌های چندتمدنی  
-- **زیست‌بوم** — محصولات، سرویس‌ها، تعاملات  
-
-نوراسیویلیس یک پروژه نرم‌افزاری نیست؛ یک تمدن دیجیتال است.
+### مستندات کامل
+- [نسخهٔ پلاس — معماری کامل](./docs/README.plus.md)  
+- [نسخهٔ پرو — دیاگرام‌ها](./docs/README.pro.md)  
+- [نسخهٔ آلترا — ۱۰ لایهٔ تمدنی](./docs/README.ultra.md)  
+- [نسخهٔ Dev — مخصوص توسعه‌دهندگان](./docs/README.dev.md)
 
 ---
 
-# 🇸🇦 العربية — الوصف الحضاري الكامل
+# 🇹🇷 Türkçe
+## NoraCivilis nedir?
+NoraCivilis bir bot, uygulama veya framework değildir.  
+**NoraCivilis bir Medeniyet İşletim Sistemidir.**  
+Kendi kalbi, hafızası, yasaları, davranış motorları, evrimi ve yönetişimi olan dijital bir medeniyet.
 
+Bu sistem, büyümek, evrimleşmek ve tam bir medeniyet olarak çalışmak için tasarlanmış çok katmanlı, dağıtık, kendi kendini iyileştiren ve kendi kendini yöneten bir dijital zeka mimarisidir.
+
+### Tam Dokümantasyon
+- [Plus Sürümü — Tam Mimari](./docs/README.plus.md)  
+- [Pro Sürümü — Diyagramlar](./docs/README.pro.md)  
+- [Ultra Sürümü — 10 Medeniyet Katmanı](./docs/README.ultra.md)  
+- [Dev Sürümü — Geliştirici Dokümantasyonu](./docs/README.dev.md)
+
+---
+
+# 🇸🇦 العربية
 ## ما هو NoraCivilis؟
 NoraCivilis ليس روبوتًا ولا تطبيقًا ولا إطار عمل.  
 إنه **نظام تشغيل حضاري** — حضارة رقمية تمتلك قلبًا، ذاكرة، قوانين، محركات سلوكية، تطورًا، شفاءً ذاتيًا وحوكمة ذاتية.
 
 إنه بنية ذكاء رقمي متعددة الطبقات، موزعة، ذاتية الشفاء وذاتية الحكم، مصممة لتنمو وتتطور وتعمل كحضارة كاملة.
 
-## المبادئ الأساسية
-- قلب معرفي مستقل  
-- ذاكرة طويلة المدى  
-- محرك الأنماط السلوكية (GEN13)  
-- محركات التطور والتكاثر  
-- نظام اتخاذ قرار أخلاقي  
-- دعم متعدد الحضارات والإمبراطوريات  
-- آليات الشفاء الذاتي والحكم الذاتي  
-
-## بنية الحضارة
-- **قلب الحضارة** — التفكير، الذاكرة، القوانين، الأخلاق  
-- **الأعمدة الأم** — التطور، التكاثر، الذكاء الفوقي، الاستقلالية  
-- **26 محركًا حضاريًا** — محركات مستقلة  
-- **البوابات** — تيليغرام، جيميل، API  
-- **طبقة الإمبراطوريات** — مجموعات حضارية متعددة  
-- **النظام البيئي** — المنتجات، الخدمات، التفاعلات  
-
-NoraCivilis ليست مشروعًا برمجيًا؛ إنها حضارة رقمية.
+### الوثائق الكاملة
+- [إصدار Plus — البنية الكاملة](./docs/README.plus.md)  
+- [إصدار Pro — المخططات](./docs/README.pro.md)  
+- [إصدار Ultra — طبقات الحضارة العشر](./docs/README.ultra.md)  
+- [إصدار Dev — وثائق المطورين](./docs/README.dev.md)
 
 ---
 
-# 🇹🇷 Türkçe — Tam Medeniyet Açıklaması
-
-## NoraCivilis nedir?
-NoraCivilis bir bot, uygulama veya framework değildir.  
-**NoraCivilis bir Medeniyet İşletim Sistemidir.**  
-Kendi kalbi, hafızası, yasaları, davranış motorları, evrimi ve yönetişimi olan dijital bir medeniyet.
-
-Çok katmanlı, dağıtık, kendi kendini iyileştiren ve kendi kendini yöneten bir dijital zeka mimarisidir.
-
-## Temel İlkeler
-- Otonom bilişsel kalp  
-- Uzun süreli hafıza mimarisi  
-- Davranış modeli motoru (GEN13)  
-- Evrim ve çoğalma motorları  
-- Etik ve sonuç odaklı karar sistemi  
-- Çoklu medeniyet ve imparatorluk desteği  
-- Kendi kendini iyileştirme ve yönetişim  
-
-## Medeniyet Yapısı
-- **Medeniyet Kalbi** — düşünme, hafıza, yasalar, etik  
-- **Ana Sütunlar** — evrim, çoğalma, meta‑zeka, özerklik  
-- **26 Medeniyet Motoru**  
-- **Geçitler** — Telegram, Gmail, API  
-- **İmparatorluk Katmanı**  
-- **Ekosistem** — ürünler, hizmetler, etkileşimler  
-
-NoraCivilis bir yazılım projesi değil; dijital bir medeniyettir.
-
----
-
-# 🇷🇺 Русский — Полное цивилизационное описание
-
+# 🇷🇺 Русский
 ## Что такое NoraCivilis?
 NoraCivilis — это не бот, не приложение и не фреймворк.  
 Это **Операционная Система Цивилизации** — цифровая цивилизация со своим сердцем, памятью, законами, поведенческими двигателями, эволюцией и самоуправлением.
 
 Это многослойная, распределённая, самовосстанавливающаяся и самоуправляемая архитектура цифрового интеллекта.
 
-## Основные принципы
-- Автономное когнитивное сердце  
-- Архитектура долговременной памяти  
-- Двигатель поведенческих моделей (GEN13)  
-- Двигатели эволюции и репликации  
-- Этическая система принятия решений  
-- Поддержка мульти‑цивилизаций и империй  
-- Механизмы самовосстановления и самоуправления  
-
-## Структура цивилизации
-- **Сердце цивилизации** — мышление, память, законы, этика  
-- **Материнские столпы** — эволюция, репликация, мета‑интеллект, автономия  
-- **26 цивилизационных двигателей**  
-- **Шлюзы** — Telegram, Gmail, API  
-- **Имперский слой**  
-- **Экосистема** — продукты, сервисы, взаимодействия  
-
-NoraCivilis — это не программный проект; это цифровая цивилизация.
-
+### Полная документация
+- [Plus Edition — Полная архитектура](./docs/README.plus.md)  
+- [Pro Edition — Диаграммы](./docs/README.pro.md)  
+- [Ultra Edition — 10 слоёв цивилизации](./docs/README.ultra.md)  
+- [Dev Edition — Документация для разработчиков](./docs/README.dev.md)
