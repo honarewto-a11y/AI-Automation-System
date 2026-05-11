@@ -1,0 +1,62 @@
+{
+  "translation": {
+    "name": "ترجمه",
+    "currency": "TRY",
+    "unit": "per_1000_chars",
+    "price": 50
+  },
+  "graphic_design": {
+    "name": "طراحی گرافیک",
+    "currency": "TRY",
+    "unit": "per_design",
+    "price": 200
+  },
+  "video_edit": {
+    "name": "ادیت ویدیو",
+    "currency": "TRY",
+    "unit": "per_video",
+    "price": 300
+  },
+  "store_build": {
+    "name": "ساخت فروشگاه",
+    "currency": "TRY",
+    "unit": "per_store",
+    "price": 1500
+  },
+  "copywriting": {
+    "name": "متن‌نویسی",
+    "currency": "TRY",
+    "unit": "per_text",
+    "price": 150
+  },
+  "telegram_bot": {
+    "name": "ربات تلگرام",
+    "currency": "TRY",
+    "unit": "per_bot",
+    "price": 1200
+  },
+  "seo": {
+    "name": "سئو",
+    "currency": "TRY",
+    "unit": "per_site",
+    "price": 800
+  },
+  "multilang_content": {
+    "name": "محتوای چندزبانه",
+    "currency": "TRY",
+    "unit": "per_package",
+    "price": 400
+  },
+  "digital_marketing": {
+    "name": "دیجیتال مارکتینگ",
+    "currency": "TRY",
+    "unit": "per_campaign",
+    "price": 1000
+  },
+  "resume_builder": {
+    "name": "رزومه‌سازی",
+    "currency": "TRY",
+    "unit": "per_resume",
+    "price": 250
+  }
+}

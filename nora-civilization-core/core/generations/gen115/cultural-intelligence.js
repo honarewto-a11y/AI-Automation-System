@@ -1,0 +1,1 @@
+module.exports={run(){return 'CULTURAL-INTELLIGENCE-115'}};

@@ -1,0 +1,1 @@
+module.exports={calc(){return 'GROWTH-GEN-102'}};

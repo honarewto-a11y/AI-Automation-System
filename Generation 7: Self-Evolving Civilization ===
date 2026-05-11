@@ -1,0 +1,11 @@
+[0;1;32m●[0m nora.service - Nora Civilization Engine (v2 Core)
+     Loaded: loaded (/etc/systemd/system/nora.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Mon 2026-04-27 15:14:22 +03; 9ms ago
+   Main PID: 218129 (node)
+      Tasks: 6 (limit: 9384)
+     Memory: 1.3M
+        CPU: 7ms
+     CGroup: /system.slice/nora.service
+             └─218129 /usr/bin/node /nora/v2/api/server.js
+
+Apr 27 15:14:22 srv systemd[1]: Started Nora Civilization Engine (v2 Core).

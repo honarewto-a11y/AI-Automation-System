@@ -1,0 +1,9 @@
+module.exports = async function generateWithMother(civilizationState) {
+    const mission = civilizationState.mission;
+    const identity = civilizationState.identity;
+
+    const name = identity?.name || "NoraCivilis";
+    const missionText = mission?.mission || "Expand human-centered intelligence";
+
+    return `🧠 ${name} — نسل ۶ فعال شد.\nماموریت: ${missionText}`;
+};

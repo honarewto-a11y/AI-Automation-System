@@ -1,0 +1,20 @@
+{
+  "name": "Mother Empire of NoraCivilis",
+  "version": 1,
+  "type": "MOTHER_EMPIRE",
+  "language": ["fa", "en"],
+  "structure": {
+    "civilization": "NoraCivilis",
+    "levels": [
+      "Civilization",
+      "Mother Empire",
+      "Child Empires",
+      "Empire Modules",
+      "Services"
+    ]
+  },
+  "identity": {
+    "immutable": true,
+    "inheritsFromCivilization": true
+  }
+}

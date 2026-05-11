@@ -1,0 +1,11 @@
+{
+  "name": "Language Empire",
+  "type": "CORE_LANGUAGE_EMPIRE",
+  "version": 1,
+  "parent": "Mother Empire of NoraCivilis",
+  "status": "CREATED",
+  "identity": {
+    "inheritsFromMother": true,
+    "language": ["fa", "en", "tr"]
+  }
+}

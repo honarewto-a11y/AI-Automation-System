@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "showMotherEmpire": true,
+    "showChildEmpires": true,
+    "inheritLanguage": true,
+    "inheritIdentity": true
+  }
+}

@@ -1,0 +1,1 @@
+module.exports={run(){return 'STRATEGIC-INTELLIGENCE-114'}};

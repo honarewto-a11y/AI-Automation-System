@@ -1,0 +1,1 @@
+module.exports={expand(){return 'IDENTITY-GEN-105'}};

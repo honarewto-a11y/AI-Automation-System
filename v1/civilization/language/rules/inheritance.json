@@ -1,0 +1,5 @@
+{
+  "mother_empire": "read-only",
+  "child_empires": "read-only",
+  "services": "read-only"
+}

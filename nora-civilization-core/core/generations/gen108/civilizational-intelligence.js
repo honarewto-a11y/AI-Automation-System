@@ -1,0 +1,1 @@
+module.exports={run(){return 'CIVILIZATIONAL-INTELLIGENCE-108'}};

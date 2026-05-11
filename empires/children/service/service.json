@@ -1,0 +1,10 @@
+{
+  "name": "Service Empire",
+  "type": "SERVICE_EMPIRE",
+  "version": 1,
+  "parent": "Mother Empire of NoraCivilis",
+  "status": "CREATED",
+  "identity": {
+    "inheritsFromMother": true
+  }
+}

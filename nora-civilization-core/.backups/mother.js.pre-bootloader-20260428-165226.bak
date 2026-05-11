@@ -1,0 +1,56 @@
+const fs = require("fs");
+
+function securityLayerOne() {
+    const REQUIRED_PATHS = [
+        "/nora/nora-civilization-core/layers",
+        "/nora/nora-civilization-core/engine",
+        "/nora/nora-civilization-core/foundations",
+        "/nora/nora-civilization-core/versioning",
+        "/nora/nora-civilization-core/identity",
+        "/nora/nora-civilization-core/rules"
+    ];
+
+    const REQUIRED_FILES = [
+        "/nora/nora-civilization-core/mother.js",
+        "/nora/nora-civilization-core/identity/identity.json",
+        "/nora/nora-civilization-core/rules/core-ruleset.js"
+    ];
+
+    function checkPaths() {
+        for (const p of REQUIRED_PATHS) {
+            if (!fs.existsSync(p)) {
+                console.error("❌  SECURITY-1: Missing required directory:", p);
+                process.exit(1);
+            }
+        }
+    }
+
+    function checkFiles() {
+        for (const f of REQUIRED_FILES) {
+            if (!fs.existsSync(f)) {
+                console.error("❌  SECURITY-1: Missing required file:", f);
+                process.exit(1);
+            }
+        }
+    }
+
+    function checkMotherIntegrity() {
+        const motherPath = "/nora/nora-civilization-core/mother.js";
+        const content = fs.readFileSync(motherPath, "utf8");
+
+        if (!content.includes("securityLayerOne")) {
+            console.error("❌  SECURITY-1: Mother.js integrity check failed.");
+            process.exit(1);
+        }
+    }
+
+    console.log("🔐 SECURITY-1: Checking core integrity...");
+    checkPaths();
+    checkFiles();
+    checkMotherIntegrity();
+    console.log("✅  SECURITY-1: All checks passed.");
+}
+
+securityLayerOne();
+
+// TODO: اینجا بعداً بقیهٔ منطق بوت تمدن NoraCivilis اضافه می‌شود.

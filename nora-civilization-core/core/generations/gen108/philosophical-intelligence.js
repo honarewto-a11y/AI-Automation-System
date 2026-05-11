@@ -1,0 +1,1 @@
+module.exports={run(){return 'PHILOSOPHICAL-INTELLIGENCE-108'}};

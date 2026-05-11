@@ -1,0 +1,11 @@
+{
+  "originalFile": "/nora-v3/huge-test-file.txt",
+  "parts": [
+    "/nora-v3/huge-test-file_parts/part_1.txt",
+    "/nora-v3/huge-test-file_parts/part_2.txt",
+    "/nora-v3/huge-test-file_parts/part_3.txt",
+    "/nora-v3/huge-test-file_parts/part_4.txt",
+    "/nora-v3/huge-test-file_parts/part_5.txt"
+  ],
+  "createdAt": 1776949040039
+}

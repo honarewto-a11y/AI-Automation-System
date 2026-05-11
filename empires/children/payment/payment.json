@@ -1,0 +1,10 @@
+{
+  "name": "Payment Empire",
+  "type": "PAYMENT_EMPIRE",
+  "version": 1,
+  "parent": "Mother Empire of NoraCivilis",
+  "status": "CREATED",
+  "identity": {
+    "inheritsFromMother": true
+  }
+}

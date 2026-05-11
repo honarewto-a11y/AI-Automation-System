@@ -1,0 +1,12 @@
+{
+    "current": "v1.0.0",
+    "channel": "core",
+    "history": [
+        {
+            "version": "v1.0.0",
+            "label": "GEN6_CORE_BOOT",
+            "status": "active",
+            "notes": "First stable core boot of NoraCivilis with real engine and versioning."
+        }
+    ]
+}

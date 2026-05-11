@@ -1,0 +1,1 @@
+module.exports={build(){return 'LANG-GEN-106'}};

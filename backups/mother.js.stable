@@ -1,0 +1,44 @@
+// /nora/mother.js
+
+/**
+ * NoraCivilis Mother Engine — LLM + Civilization Stack
+ */
+
+const lang = require("/nora/civilization-language-engine/language-core.js");
+const composer = require("/nora/civilization-output-engine/output-composer.js");
+const llmManager = require("/nora/nora-civilization-core/engine/llm-manager.js");
+
+module.exports = async function mother(payload) {
+    const text = (payload.text || "").toString().trim();
+
+    // ۱) تفسیر ورودی تمدنی
+    const interpreted = lang.interpretInput(text);
+
+    // ۲) ساخت فریم معنایی
+    const frame = lang.buildSemanticFrame(interpreted);
+
+    // ۳) فراخوانی LLM داخلی
+    const llmOutput = await llmManager.ask(text, {
+        channel: payload.channel,
+        userId: payload.userId,
+        frame
+    });
+
+    // ۴) ترکیب خروجی تمدنی + LLM
+    const final = composer.compose({
+        rawInput: text,
+        frame,
+        persona: "default",
+        llm: llmOutput
+    });
+
+    // ۵) خروجی نهایی برای کانال (تلگرام و …)
+    return {
+        answer: final,
+        meta: {
+            channel: payload.channel,
+            userId: payload.userId,
+            ok: true
+        }
+    };
+};

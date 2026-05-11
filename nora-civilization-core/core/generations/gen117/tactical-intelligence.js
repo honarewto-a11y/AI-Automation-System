@@ -1,0 +1,1 @@
+module.exports={run(){return 'TACTICAL-INTELLIGENCE-117'}};

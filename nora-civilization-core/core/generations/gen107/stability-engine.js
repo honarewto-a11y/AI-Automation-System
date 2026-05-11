@@ -1,0 +1,1 @@
+module.exports={check(){return 'STABILITY-GEN-107'}};

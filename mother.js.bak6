@@ -1,0 +1,86 @@
+/**
+ * NoraCivilis Mother Engine (GEN10.5 + GEN11.5)
+ * + Reasoning Engine v1
+ * + Identity Engine v1
+ * + Mission Engine v1
+ * + Strategic Intelligence Engine v1 (GEN8)
+ * + Civilization Event System v1 (GEN9)
+ * + Tactical Intelligence Engine v1 (GEN10)
+ * + Ethical Intelligence Engine v1 (GEN11)
+ * + Output Composer v1
+ */
+
+const lang = require("/nora/civilization-language-engine/language-core.js");
+const knowledge = require("/nora/civilization-knowledge-engine/knowledge-core.js");
+const deep = require("/nora/civilization-knowledge-engine/deep-knowledge.js");
+const composer = require("/nora/civilization-output-engine/output-composer.js");
+
+const reasoning = require("/nora/civilization-reasoning-engine/reasoning-core.js");
+const identity = require("/nora/civilization-identity-engine/identity-core.js");
+const mission = require("/nora/civilization-mission-engine/mission-core.js");
+
+const strategic = require("/nora/civilization-strategic-engine/strategic-core.js");
+const events = require("/nora/civilization-event-engine/event-core.js");
+
+const tactical = require("/nora/civilization-tactical-engine/tactical-core.js");
+const ethical = require("/nora/civilization-ethical-engine/ethical-core.js");
+
+// ------------------------------
+function behaviorEngine(input) {
+    return "🧠 Behavior Engine : running one behavior cycle . . .";
+}
+
+function memoryEngine() {
+    return "🧱 Long-Term Memory Engine : initialized .";
+}
+
+function empireEngine() {
+    return "👑 Mother Empire Engine : initialized .";
+}
+// ------------------------------
+
+function runCivilization(inputText) {
+
+    const interpreted = lang.interpretInput(inputText);
+    const frame = lang.buildSemanticFrame(interpreted);
+
+    const intro = lang.generateNaturalLanguage(frame);
+    const knowledgeText = knowledge.generateKnowledge(frame);
+    const deepText = deep.deepExplain(frame.structure.topic, frame.intent);
+
+    const reasoningText = reasoning.multiStepReasoning(frame.structure.topic);
+    const identityText = identity.identitySignature();
+    const missionText = mission.missionStatement();
+
+    const strategyText = strategic.buildStrategy(frame.structure.topic);
+    const eventText = events.classifyEvent(inputText);
+
+    const tacticalText = tactical.buildTactics(frame.structure.topic);
+    const ethicalText = ethical.ethicalEvaluation(frame.structure.topic);
+
+    const b = behaviorEngine(inputText);
+    const m = memoryEngine();
+    const e = empireEngine();
+
+    return composer.composeCivilizationalResponse({
+        intro,
+        knowledge: knowledgeText + "\n\n" + reasoningText,
+        deep: deepText + "\n\n" + identityText + "\n\n" + missionText,
+        strategic: strategyText,
+        events: eventText,
+        tactical: tacticalText,
+        ethical: ethicalText,
+        behavior: b,
+        memory: m,
+        empire: e
+    });
+}
+
+// ------------------------------
+let input = "";
+process.stdin.on("data", chunk => input += chunk.toString("utf8"));
+process.stdin.on("end", () => {
+    input = input.trim();
+    const output = runCivilization(input);
+    process.stdout.write(output);
+});

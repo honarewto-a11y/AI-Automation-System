@@ -1,0 +1,9 @@
+{
+  "forbidden": [
+    "add_language_outside_civilization",
+    "delete_language",
+    "change_script",
+    "change_direction",
+    "change_priority"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "source": "CivilizationLanguageCore",
+  "target": "Mother Empire",
+  "rules": [
+    "Mother Empire inherits all 7000 languages",
+    "No empire can modify languages",
+    "Child empires inherit languages from Mother Empire",
+    "Only Mother Empire can add new languages"
+  ]
+}

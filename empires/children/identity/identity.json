@@ -1,0 +1,12 @@
+{
+  "name": "Identity Empire",
+  "type": "CORE_IDENTITY_EMPIRE",
+  "version": 1,
+  "parent": "Mother Empire of NoraCivilis",
+  "status": "CREATED",
+  "identity": {
+    "inheritsFromMother": true,
+    "immutable": true,
+    "language": ["fa", "en"]
+  }
+}

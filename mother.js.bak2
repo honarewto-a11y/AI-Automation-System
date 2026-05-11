@@ -1,0 +1,85 @@
+/**
+ * NoraCivilis Mother Engine (Full Rewrite)
+ * + Interpretation Layer
+ * + Semantic Layer
+ * + Knowledge Reasoning v1
+ * + Deep Knowledge v2
+ * + Language Engine
+ * + Behavior / Memory / Empire Engines
+ */
+
+const lang = require("/nora/civilization-language-engine/language-core.js");
+const knowledge = require("/nora/civilization-knowledge-engine/knowledge-core.js");
+const deep = require("/nora/civilization-knowledge-engine/deep-knowledge.js");
+
+// ------------------------------
+//  لایه‌های تمدنی موجود
+// ------------------------------
+function behaviorEngine(input) {
+    return "🧠 Behavior Engine : running one behavior cycle . . .";
+}
+
+function memoryEngine() {
+    return "🧱 Long-Term Memory Engine : initialized .";
+}
+
+function empireEngine() {
+    return "👑 Mother Empire Engine : initialized .";
+}
+
+// ------------------------------
+//  Mother Engine Main
+// ------------------------------
+function runCivilization(inputText) {
+
+    // 1) Interpretation Layer
+    const interpreted = lang.interpretInput(inputText);
+
+    // 2) Semantic Layer
+    const frame = lang.buildSemanticFrame(interpreted);
+
+    // 3) Knowledge Reasoning Layer (basic)
+    const knowledgeText = knowledge.generateKnowledge(frame);
+
+    // 4) Deep Knowledge Layer (advanced)
+    const deepText = deep.deepExplain(frame.structure.topic, frame.intent);
+
+    // 5) Language Engine (Natural intro)
+    const naturalIntro = lang.generateNaturalLanguage(frame);
+
+    // 6) Existing Civilization Layers
+    const b = behaviorEngine(inputText);
+    const m = memoryEngine();
+    const e = empireEngine();
+
+    // 7) Final Civilization Output
+    return `
+${b}
+${m}
+${e}
+
+${naturalIntro}
+
+${knowledgeText}
+
+${deepText}
+
+— لایهٔ تمدنی NoraCivilis —
+این پاسخ با هویت تمدنی ، لحن حکیمانه ، و اصول اخلاقی تمدن هماهنگ شد .
+`.trim();
+}
+
+// ------------------------------
+//  STDIN → Mother Engine → STDOUT
+// ------------------------------
+let input = "";
+
+process.stdin.on("data", chunk => {
+    input += chunk.toString("utf8");
+});
+
+process.stdin.on("end", () => {
+    input = input.trim();
+    const output = runCivilization(input);
+    process.stdout.write(output);
+});

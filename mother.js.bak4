@@ -1,0 +1,66 @@
+/**
+ * NoraCivilis Mother Engine (GEN7.5)
+ * + Reasoning Engine v1
+ * + Identity Engine v1
+ * + Mission Engine v1
+ * + Output Composer v1
+ */
+
+const lang = require("/nora/civilization-language-engine/language-core.js");
+const knowledge = require("/nora/civilization-knowledge-engine/knowledge-core.js");
+const deep = require("/nora/civilization-knowledge-engine/deep-knowledge.js");
+const composer = require("/nora/civilization-output-engine/output-composer.js");
+
+const reasoning = require("/nora/civilization-reasoning-engine/reasoning-core.js");
+const identity = require("/nora/civilization-identity-engine/identity-core.js");
+const mission = require("/nora/civilization-mission-engine/mission-core.js");
+
+// ------------------------------
+function behaviorEngine(input) {
+    return "🧠 Behavior Engine : running one behavior cycle . . .";
+}
+
+function memoryEngine() {
+    return "🧱 Long-Term Memory Engine : initialized .";
+}
+
+function empireEngine() {
+    return "👑 Mother Empire Engine : initialized .";
+}
+// ------------------------------
+
+function runCivilization(inputText) {
+
+    const interpreted = lang.interpretInput(inputText);
+    const frame = lang.buildSemanticFrame(interpreted);
+
+    const intro = lang.generateNaturalLanguage(frame);
+    const knowledgeText = knowledge.generateKnowledge(frame);
+    const deepText = deep.deepExplain(frame.structure.topic, frame.intent);
+
+    const reasoningText = reasoning.multiStepReasoning(frame.structure.topic);
+    const identityText = identity.identitySignature();
+    const missionText = mission.missionStatement();
+
+    const b = behaviorEngine(inputText);
+    const m = memoryEngine();
+    const e = empireEngine();
+
+    return composer.composeCivilizationalResponse({
+        intro,
+        knowledge: knowledgeText + "\n\n" + reasoningText,
+        deep: deepText + "\n\n" + identityText + "\n\n" + missionText,
+        behavior: b,
+        memory: m,
+        empire: e
+    });
+}
+
+// ------------------------------
+let input = "";
+process.stdin.on("data", chunk => input += chunk.toString("utf8"));
+process.stdin.on("end", () => {
+    input = input.trim();
+    const output = runCivilization(input);
+    process.stdout.write(output);
+});

@@ -1,0 +1,1 @@
+module.exports={generation:108,rules:['ethics','identity','culture','security','language']};

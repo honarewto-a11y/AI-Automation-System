@@ -1,0 +1,9 @@
+{
+  "ocr": {
+    "id": "ocr",
+    "name": "OCR Bot",
+    "price": 150,
+    "file": "ocr-bot.zip",
+    "description": "Fotoğraftan metin çıkaran profesyonel Telegram bot paketi."
+  }
+}

@@ -1,0 +1,1 @@
+module.exports={analyze(){return{behavior:Math.random(),stability:Math.random(),growth:Math.random()}}};

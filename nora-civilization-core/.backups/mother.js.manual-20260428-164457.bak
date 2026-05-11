@@ -1,0 +1,70 @@
+// mother.js
+// Mother bootstrap of Noracivilis Civilization Core
+
+const layers = require('./layers/layers.js');
+const identity = require('./identity/identity.js');
+const rules = require('./rules/rules.js');
+const memory = require('./memory/memory.js');
+const data = require('./data/data.js');
+const empires = require('./empires/empires.js');
+const connectors = require('./connectors/connectors.js');
+const monitoring = require('./layers/monitoring/index.js');
+const versioning = require('./versioning/versioning.js');
+const foundations = require('./foundations/foundations.js');
+const engine = require('./engine/engine.js');
+
+async function bootCivilization() {
+  console.log('🟢 Noracivilis: Mother boot starting...'); if (!runPreflightChecks()) { console.error('❌  Preflight failed. Aborting civilization boot.'); process.exit(1); } if (!runPreflightChecks()) { console.error('❌  Preflight failed. Aborting civilization boot.'); process.exit(1); }
+  if (identity?.init) await identity.init();
+  if (rules?.init) await rules.init();
+  if (memory?.init) await memory.init();
+  if (data?.init) await data.init();
+  if (foundations?.init) await foundations.init();
+  if (layers?.init) await layers.init();
+  if (empires?.init) await empires.init();
+  if (connectors?.init) await connectors.init();
+  if (monitoring?.init) await monitoring.init();
+  if (versioning?.init) await versioning.init();
+  if (engine?.start) await engine.start();
+  console.log('✅ Noracivilis: Civilization core is BOOTED (mother.js).');
+}
+
+if (require.main === module) {
+  bootCivilization().catch(err => {
+    console.error('❌ Noracivilis: Mother boot failed:', err);
+    process.exit(1);
+  });
+}
+
+module.exports = { bootCivilization };
+const fs = require('fs');
+const path = require('path');
+function checkPath(p) {
+  const full = path.join(__dirname, p);
+    console.error('❌ PATH CHECK FAILED:', p, '(resolved:', full + ')');
+    return false;
+  }
+  console.log('✅ PATH OK:', p);
+  return true;
+}
+
+function runPreflightChecks() {
+  const paths = [
+    './layers/layers.js',
+    './identity/identity.js',
+    './rules/rules.js',
+    './memory/memory.js',
+    './data/data.js',
+    './empires/empires.js',
+    './connectors/connectors.js',
+    './versioning/versioning.js',
+    './foundations/foundations.js',
+    './engine/engine.js',
+    './layers/monitoring/index.js'
+  ];
+  let ok = true;
+  for (const p of paths) {
+  }
+  return ok;
+}
+

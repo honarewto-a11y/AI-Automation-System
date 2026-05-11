@@ -1,0 +1,4 @@
+{"event":"test_event","data":{"a":1},"time":"2026-04-20T18:32:18.771Z"}
+{"event":"intelligence_command_v2","data":{"action":"build_v3"},"time":"2026-04-20T18:44:53.526Z"}
+{"event":"builder_v3_start","data":{},"time":"2026-04-20T18:44:53.531Z"}
+{"event":"builder_v3_completed","data":{},"time":"2026-04-20T18:44:53.532Z"}

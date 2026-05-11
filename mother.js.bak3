@@ -1,0 +1,71 @@
+/**
+ * NoraCivilis Mother Engine (with Output Composer v1)
+ */
+
+const lang = require("/nora/civilization-language-engine/language-core.js");
+const knowledge = require("/nora/civilization-knowledge-engine/knowledge-core.js");
+const deep = require("/nora/civilization-knowledge-engine/deep-knowledge.js");
+const composer = require("/nora/civilization-output-engine/output-composer.js");
+
+// ------------------------------
+//  لایه‌های تمدنی موجود
+// ------------------------------
+function behaviorEngine(input) {
+    return "🧠 Behavior Engine : running one behavior cycle . . .";
+}
+
+function memoryEngine() {
+    return "🧱 Long-Term Memory Engine : initialized .";
+}
+
+function empireEngine() {
+    return "👑 Mother Empire Engine : initialized .";
+}
+
+// ------------------------------
+//  Mother Engine Main
+// ------------------------------
+function runCivilization(inputText) {
+    // 1) Interpretation Layer
+    const interpreted = lang.interpretInput(inputText);
+
+    // 2) Semantic Layer
+    const frame = lang.buildSemanticFrame(interpreted);
+
+    // 3) Knowledge Layers
+    const knowledgeText = knowledge.generateKnowledge(frame);
+    const deepText = deep.deepExplain(frame.structure.topic, frame.intent);
+
+    // 4) Language Engine (intro)
+    const naturalIntro = lang.generateNaturalLanguage(frame);
+
+    // 5) Civilization base layers
+    const b = behaviorEngine(inputText);
+    const m = memoryEngine();
+    const e = empireEngine();
+
+    // 6) Output Composer
+    return composer.composeCivilizationalResponse({
+        intro: naturalIntro,
+        knowledge: knowledgeText,
+        deep: deepText,
+        behavior: b,
+        memory: m,
+        empire: e
+    });
+}
+
+// ------------------------------
+//  STDIN → Mother Engine → STDOUT
+// ------------------------------
+let input = "";
+
+process.stdin.on("data", chunk => {
+    input += chunk.toString("utf8");
+});
+
+process.stdin.on("end", () => {
+    input = input.trim();
+    const output = runCivilization(input);
+    process.stdout.write(output);
+});

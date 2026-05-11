@@ -1,0 +1,1 @@
+HEALED: File was corrupted and has been restored.

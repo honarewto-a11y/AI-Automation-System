@@ -1,0 +1,11 @@
+{
+  "name": "nora-v3-old",
+  "version": "3.0.0-old",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0"
+  }
+}

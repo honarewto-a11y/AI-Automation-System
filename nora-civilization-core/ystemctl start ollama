@@ -1,0 +1,21 @@
+[0;1;32m●[0m ollama.service - Ollama Service
+     Loaded: loaded (/etc/systemd/system/ollama.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Wed 2026-04-29 22:49:48 +03; 13min ago
+   Main PID: 401889 (ollama)
+      Tasks: 17 (limit: 9384)
+     Memory: 5.3G
+        CPU: 7min 2.173s
+     CGroup: /system.slice/ollama.service
+             ├─401889 /usr/local/bin/ollama serve
+             └─404674 /usr/local/bin/ollama runner --model /usr/share/ollama/.ollama/models/blobs/sha256-6a0746a1ec1aef3e7ec53868f220ff6e389f6f8ef87a01d77c96807de94ca2aa --port 34151
+
+Apr 29 23:00:51 srv ollama[401889]: llama_context: Flash Attention was auto, set to enabled
+Apr 29 23:00:51 srv ollama[401889]: llama_context:        CPU compute buffer size =   258.50 MiB
+Apr 29 23:00:51 srv ollama[401889]: llama_context: graph nodes  = 999
+Apr 29 23:00:51 srv ollama[401889]: llama_context: graph splits = 1
+Apr 29 23:00:52 srv ollama[401889]: time=2026-04-29T23:00:52.024+03:00 level=INFO source=server.go:1402 msg="llama runner started in 51.90 seconds"
+Apr 29 23:00:52 srv ollama[401889]: time=2026-04-29T23:00:52.026+03:00 level=INFO source=sched.go:561 msg="loaded runners" count=1
+Apr 29 23:00:52 srv ollama[401889]: time=2026-04-29T23:00:52.026+03:00 level=INFO source=server.go:1364 msg="waiting for llama runner to start responding"
+Apr 29 23:00:52 srv ollama[401889]: time=2026-04-29T23:00:52.027+03:00 level=INFO source=server.go:1402 msg="llama runner started in 51.90 seconds"
+Apr 29 23:01:25 srv ollama[401889]: [GIN] 2026/04/29 - 23:01:25 | 200 |         1m26s |       127.0.0.1 | POST     "/api/generate"
+Apr 29 23:03:10 srv ollama[401889]: [GIN] 2026/04/29 - 23:03:10 | 200 |          1m8s |       127.0.0.1 | POST     "/api/generate"

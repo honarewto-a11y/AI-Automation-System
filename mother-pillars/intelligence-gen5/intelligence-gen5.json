@@ -1,0 +1,20 @@
+{
+  "name": "Intelligence Layer – Generation 5",
+  "type": "INTELLIGENCE_LAYER_GEN5",
+  "version": 1,
+  "status": "CREATED",
+  "layers": [
+    "Mission",
+    "Strategic",
+    "Tactical",
+    "Ethical",
+    "Identity",
+    "Social",
+    "Cultural",
+    "Economic",
+    "Infrastructure",
+    "Creative",
+    "Philosophical",
+    "Civilizational"
+  ]
+}

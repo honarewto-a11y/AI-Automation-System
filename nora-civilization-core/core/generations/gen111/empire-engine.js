@@ -1,0 +1,1 @@
+module.exports={create(){return 'EMPIRE-GEN-111'}};
