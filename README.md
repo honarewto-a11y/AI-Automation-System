@@ -4,9 +4,15 @@
 <h1 align="center">NoraCivilis</h1>
 <p align="center">A Multi‑Layer, Multi‑Engine, Self‑Evolving Civilization 
 Operating System</p>
-![NoraCivilis Architecture](docs/images/nora_flat_architecture.png)
+!
 
----
+---### NoraCivilis Architecture — Visual Set
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/honarewto-a11y/Noracivilis/main/image_1778506906296.jpeg" width="30%">
+  <img src="https://raw.githubusercontent.com/honarewto-a11y/Noracivilis/main/image_1778507317926.jpeg" width="30%">
+  <img src="https://raw.githubusercontent.com/honarewto-a11y/Noracivilis/main/image_1778507406480.jpeg" width="30%">
+</p>
 
 ## 🌍 What is NoraCivilis?
 
