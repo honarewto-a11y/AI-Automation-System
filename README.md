@@ -45,7 +45,17 @@ Operating System</p>
 
 🌐 Gateway System  
 [Open Folder](gateway/)
+🔐 Security Engine  
+[Open Folder](security/)
 
+📜 Law Engine  
+[Open Folder](rules/)
+
+🧘 Healing Engine  
+[Open Folder](v3/selfhealing/)
+
+🧬 Evolution Engine  
+[Open Folder](evolution-engine/)
 ---
 
 ## 📚 Full Documentation
