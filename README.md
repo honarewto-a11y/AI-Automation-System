@@ -23,67 +23,34 @@ It includes:
 🧠 Heart System
 Open Folder (github.com in Bing)
 
----
-
 🧬 Evolution Engine
 (Mother Pillars – evolution-engine)
-
 Open Folder (github.com in Bing)
-
----
 
 🧩 Pattern Engine
-
-
 Open Folder (github.com in Bing)
-
----
 
 🏛 Governance Engine
-
-
 Open Folder (github.com in Bing)
-
----
 
 🧘 Healing Engine
-
-
 Open Folder (github.com in Bing)
-
----
 
 🪪 Identity Engine
-
-
 Open Folder (github.com in Bing)
-
----
 
 📜 Law Engine
 (rules folder)
-
 Open Folder (github.com in Bing)
-
----
 
 🧱 Memory System
 (meta-memory-engine)
-
 Open Folder (github.com in Bing)
-
----
 
 🔐 Security Engine
-
-
 Open Folder (github.com in Bing)
 
----
-
 🌐 Gateway System
-
-
 Open Folder (github.com in Bing)
 
 ---
