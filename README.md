@@ -20,35 +20,72 @@ NoraCivilis is not a bot.
 NoraCivilis is a **Civilization Operating System** — a modular, multi‑engine, multi‑layer digital intelligence stack designed to simulate, evolve, and govern a living digital civilization.
 It includes:
 
-### 🧠 Heart System  
-[Open Folder](core/heart)
 
-### 🧬 Evolution Engine  
-[Open Folder](engines/evolution)
+🧠 Heart System
+Open Folder (github.com in Bing)
 
-### 🧩 Pattern Engine  
-[Open Folder](engines/pattern)
+---
 
-### 🏛 Governance Engine  
-[Open Folder](engines/governance)
+🧬 Evolution Engine
+(نسخه Mother Pillars – evolution-engine)
 
-### 🧘 Healing Engine  
-[Open Folder](engines/healing)
+Open Folder (github.com in Bing)
 
-### 🪪 Identity Engine  
-[Open Folder](engines/identity)
+---
 
-### 📜 Law Engine  
-[Open Folder](engines/law)
+🧩 Pattern Engine
+(الگوی رفتاری تمدن)
 
-### 🧱 Memory System  
-[Open Folder](engines/memory)
+Open Folder (github.com in Bing)
 
-### 🔐 Security Engine  
-[Open Folder](engines/security)
+---
 
-### 🌐 Gateway System  
-[Open Folder](gateways)
+🏛 Governance Engine
+(قوانین اخلاقی و حکمرانی)
+
+Open Folder (github.com in Bing)
+
+---
+
+🧘 Healing Engine
+(سیستم خوددرمانی – نسخه v3)
+
+Open Folder (github.com in Bing)
+
+---
+
+🪪 Identity Engine
+(هویت تمدن)
+
+Open Folder (github.com in Bing)
+
+---
+
+📜 Law Engine
+(قوانین تمدن – rules folder)
+
+Open Folder (github.com in Bing)
+
+---
+
+🧱 Memory System
+(حافظهٔ متا – meta-memory-engine)
+
+Open Folder (github.com in Bing)
+
+---
+
+🔐 Security Engine
+(امنیت تمدن)
+
+Open Folder (github.com in Bing)
+
+---
+
+🌐 Gateway System
+(درگاه‌ها: API، تلگرام، جیمیل)
+
+Open Folder (github.com in Bing)
 
 ---
 
