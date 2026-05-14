@@ -4,8 +4,9 @@
 </p>
 <h1 align="center">NoraCivilis</h1>
 <p align="center">  
-Operating System</p>
+</p>
 
+### Operating System ###
 
 ### NoraCivilis Architecture — Visual Set ###
 
