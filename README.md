@@ -6,7 +6,7 @@
 Operating System</p>
 
 
----### NoraCivilis Architecture — Visual Set
+### NoraCivilis Architecture — Visual Set ###
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/honarewto-a11y/Noracivilis/main/image_1778506906296.jpeg" width="30%">
