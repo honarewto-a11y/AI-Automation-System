@@ -4,7 +4,7 @@
 <h1 align="center">NoraCivilis</h1>
 <p align="center">A Multi‑Layer, Multi‑Engine, Self‑Evolving Civilization 
 Operating System</p>
-!
+
 
 ---### NoraCivilis Architecture — Visual Set
 
