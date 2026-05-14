@@ -1,8 +1,9 @@
+### A Multi‑Layer, Multi‑Engine, Self‑Evolving Civilization ###
 <p align="center">
   <img src="Noracivilis.jpg" width="220">
 </p>
 <h1 align="center">NoraCivilis</h1>
-<p align="center">A Multi‑Layer, Multi‑Engine, Self‑Evolving Civilization 
+<p align="center">  
 Operating System</p>
 
 
